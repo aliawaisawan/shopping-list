@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: cadetblue;
+}
+.container{
+ background-color: darkcyan;
+ border: solid 2px darkcyan;
+ border-radius: 10px;
+ margin: 250px;
+
+}
+.items{
+  margin-left: 400px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.lb{
+  display: flex;
+  justify-content: flex-start;
+}
+.listbtn{
+  display: flex;
+  display: inline-block;
+}
+@media only screen and (max-width: 930px)
+{
+  .items{
+    margin-left: 50px;
+  }
+}
